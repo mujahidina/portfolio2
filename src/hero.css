@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+.wrapper {
+
+  position: relative;
+  
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -50px;
+  }
+}
+
+.logo {
+  position: absolute;
+  left: max(calc(150px * 6), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  padding: 8px;
+  
+}
+
+.logo1 {
+  animation-delay: calc(30s / 6 * (6 - 1) * -1);
+}
+
+.logo2 {
+  animation-delay: calc(30s / 6 * (6 - 2) * -1);
+}
+
+.logo3 {
+  animation-delay: calc(30s / 6 * (6 - 3) * -1);
+}
+
+.logo4 {
+  animation-delay: calc(30s / 6 * (6 - 4) * -1);
+}
+
+.logo5 {
+  animation-delay: calc(30s / 6 * (6 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 6 * (6 - 6) * -1);
+}
+
+
+
+.hero {
+  background-image: url('/public/bg2.jpeg');
+  background-size: cover; /* Ensures the whole image fits in */
+  background-position: center;
+  background-repeat: no-repeat;
+}
