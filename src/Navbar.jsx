@@ -1,6 +1,7 @@
 function Navbar(){
     return(
-        <div className="bg-red-400 w-full h-[6vh]">
+        <div className="bg-black  w-full h-[8vh]">
+
 
         </div>
 

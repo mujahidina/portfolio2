@@ -1,3 +1,10 @@
+/* .hero {
+  background-image: url('../public/bg2.jpeg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
 *,
 *::before,
 *::after {
@@ -24,13 +31,13 @@
 
 @keyframes scrollLeft {
   to {
-    left: -50px;
+    left: -200px;
   }
 }
 
 .logo {
   position: absolute;
-  left: max(calc(150px * 6), 100%);
+  left: max(calc(130px * 8), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -42,28 +49,38 @@
 }
 
 .logo1 {
-  animation-delay: calc(30s / 6 * (6 - 1) * -1);
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
 }
 
 .logo2 {
-  animation-delay: calc(30s / 6 * (6 - 2) * -1);
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
 }
 
 .logo3 {
-  animation-delay: calc(30s / 6 * (6 - 3) * -1);
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
 }
 
 .logo4 {
-  animation-delay: calc(30s / 6 * (6 - 4) * -1);
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
 }
 
 .logo5 {
-  animation-delay: calc(30s / 6 * (6 - 5) * -1);
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
 }
 
-.item6 {
-  animation-delay: calc(30s / 6 * (6 - 6) * -1);
+.logo6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
 }
+
+.logo7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.logo8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+
 
 
 
@@ -72,4 +89,30 @@
   background-size: cover; /* Ensures the whole image fits in */
   background-position: center;
   background-repeat: no-repeat;
+}
+
+
+
+
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+
+.morph {
+  animation: morph 5s infinite; 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
 }
