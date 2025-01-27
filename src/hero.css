@@ -1,9 +1,3 @@
-/* .hero {
-  background-image: url('../public/bg2.jpeg');
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat;
-} */
 
 *,
 *::before,
@@ -79,18 +73,6 @@
 .logo8 {
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
-
-
-
-
-
-.hero {
-  background-image: url('/public/bg2.jpeg');
-  background-size: cover; /* Ensures the whole image fits in */
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 
 
 
