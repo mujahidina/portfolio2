@@ -6,7 +6,7 @@ function Hero(){
 
    const Resume = `MujahidsResume.pdf`;
     return(
-        <div className="bg-black  h-[100vh] w-full flex flex-col poppins-semibold">
+        <div className="bg-black  h-[100vh] w-full flex flex-col poppins-semibold" id='home'>
             <div className='w-full h-[70vh] flex flex-row'>
                 <div className=' w-1/2 h-full text-white pt-36 pl-96 flex flex-col'>
                     <h1 className='text-5xl poppins-bold  tracking-wider'>Fullstack </h1>
