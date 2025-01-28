@@ -5,11 +5,17 @@ function About(){
                   <div className="w-[80%] ml-32 h-full text-white pt-28">
                     <h1 className="poppins-bold text-3xl mb-6">About Me.</h1>
                     <div className="w-[80%] h-72 flex flex-wrap">
-                        <p className="poppins-medium text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse 
-                            iaculis augue at nisi malesuada pulvinar at sit amet lorem. Nullam lectus
-                             sapien, luctus at euismod vitae, lacinia vel erat. Praesent quis vulputate
-                             libero, quis rutrum dui. In tincidunt augue mi, eget lacinia mi imperdiet a. 
-                             Nullam non varius ligula, id pharetra libero. Nam nec fermentum mauris, vitae elementum dolor.</p>
+                        <p className="poppins-medium text-gray-400">Passionate and skilled Full Stack Developer with a year of
+                            experience in designing, developing, and deploying high-
+                            quality software solutions. Proficient in Python and
+                            JavaScript, with expertise in modern web development
+                            frameworks such as React, Node.js, and Flask.
+                            Experienced in database management (PostgreSQL,
+                            SQLite), CI/CD pipelines, and version control systems like
+                            Git. Strong in creating robust Restful APIs and integrating
+                            them seamlessly into frontend and backend
+                            architectures. Adept at solving complex problems and
+                            delivering scalable, maintainable solutions.</p>
                     </div>
 
                   </div>
