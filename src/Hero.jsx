@@ -14,8 +14,8 @@ function Hero(){
                     <p className='mt-6'>Hey, im <span className='text-xl ml-2'>Mujahid Abdi</span></p>
                     <p className='text-gray-400'>Passsiontae about creating user-friendly softwares</p>
                     <div className='w-20 h-8 items-center flex flex-row mt-3 gap-4'>
-                         <a href="http://www.linkedin.com/in/mujahid-abdi-124a8a269"><FaGithub /></a>
-                         <a href="https://github.com/mujahidina?tab=repositories"><FaLinkedinIn /></a>
+                         <a href="http://www.linkedin.com/in/mujahid-abdi-124a8a269"><FaLinkedinIn/></a>
+                         <a href="https://github.com/mujahidina?tab=repositories"><FaGithub/></a>
                     </div>
                     <button className='poppins-medium text-xs border border-gray-400 w-36 py-2 rounded-lg mt-7' ><a href={Resume} download='MujahidsResume'>Download resume</a></button>
                 </div>
